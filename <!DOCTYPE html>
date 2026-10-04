@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <metaname="viewport"content="width=device-widthinitial-scale=10>
+     <title>QuickNotes - About</title>
+   </head>
+  <body>
+     <header> 
+        <h1>QuickNotes</h1>
+        <p>Capture ideas before they disappear.</p><nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        </nav>
+    </header>
+      
+    <main>
+    
+     <h2>About QuickNotes</h2>
+        <p>
+        QuickNotes is a lightweight web application designed to
+        helpyou organize thoughts instantly without distraction. 
+        It simplifies daily note-taking so you can focus on building projects and tracking key tasks.
+      </p>
+
+<section>
+    <h3>How to use QuickNotes</h3>
+    <ol>
+    <li>Type your note into the input box on the Home page.</li>
+<li>Click the "Add Note" button to save it to your list.</li>
+    <li>Review your note count and list items anytime.</li>
+        </ol>
+     </section>
+
+      <section>
+        <h3>Features</h3>
+         <ul>
+    <li>Fast and minimalist interface</li>
+        <li>Instant task creation</li>
+          <li>Clean standards-compliant layout</li>
+            </ul>
+    </section>
+
+        <section>
+            <h3>Keyboard Shortcuts</h3>
+                <table>
+        <thead>
+    <tr>
+     <th>Shortcut</th>
+      <th>Action</th>
+        </tr>
+        </thead>
+            <tbody>
+        <tr>
+    <td>Ctrl + N</td>
+        <td>Focus new note input</td>
+            </tr>
+        <tr>
+    <td>Enter</td>
+     <td>Submit new note</td>
+        </tr>
+         </tbody>
+            </table>
+</section>
+    <section<h3>Send Feedback</h3>
+    <form id="feedback-form">
+    <p>
+    <label for="user-name">Name:</label>
+       <input type="text" id="user-name" name="user-name" required />
+       </p>
+         <p>
+     <label for="user-email">Email:</label>
+<input type="email" id="user-email" name="user-email" required />
+  </p>
+    <p>
+     <label for="user-message">Message:</label>
+<textarea id="user-message" name="user-message" required><
+textarea>                                                            
+    </p>
+        <button type="submit">Send</button>
+ </form>
+     </section>
+        </main>
+
+     <footer>
+<p>&copy; 2026 QuickNotes. Built during Web Foundations.</p>
+    </footer>
+      <body>                                                                                          
+  </html>
